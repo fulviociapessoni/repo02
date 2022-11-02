@@ -13,4 +13,7 @@
     <AssociationRole1 id="MUser2MRole" name="AppUserToAppRole" maxCard="N"/>
     <AssociationRole2 id="MRole2MUser" name="AppRoleToAppUser" maxCard="1"/>
   </Association>
+  <Class gr:x="205" gr:y="310" id="cls1w" name="Class 1" duration="persistent">
+    <Attribute id="cls1w#att1w" key="true" name="oid" type="integer" specialBehavior="implicitOid"/>
+  </Class>
 </DomainModel>
