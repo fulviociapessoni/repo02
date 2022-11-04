@@ -185,4 +185,8 @@
     </IdentityToken>
   </AuthenticationServices>
   <db:Database id="dbD1" name="Database1"/>
+  <Property id="prop1p" name="Property 1" value="11111111"/>
+  <Class id="cls1p" name="Class 1" duration="persistent" gr:x="45" gr:y="45">
+    <Attribute id="cls1p#att1p" name="oid" key="true" type="integer"/>
+  </Class>
 </DomainModel>
